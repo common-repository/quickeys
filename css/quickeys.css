@@ -1,0 +1,17 @@
+/* CSS for QuicKeys Plugin
+ * Written by Nimrod Tsabari | omniWP
+ * Since Version 0.1b
+ * Relase Version 0.5b
+ */
+
+.quickeys-nourl-error {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	padding: 10px 20px;
+	background: #AA0000;
+	border:	1px solid #991B1E;
+	border-radius: 5px;
+	z-index: 9999;
+}

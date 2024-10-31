@@ -1,0 +1,252 @@
+/* CSS Action for QuicKeys's Admin Section
+ * Written by : Nimrod Tsabari | omniWP
+ * @ 16.09.2012
+ */
+#quickeys-admin .page_title {
+	font-size: 46px;
+	line-height: 1em;
+	margin: 10px 0 10px -20px;
+	background: #F0F0F0;
+	padding: 10px 20px 5px 20px;
+	border-bottom: 2px solid #BBB;
+	text-shadow: 1px 1px white;
+}
+#quickeys-admin #quickeys-content p {
+	font-size: 16px;
+	line-height: 1.3em;
+	margin: 10px 5px;
+}
+#quickeys-admin #quickeys-content {
+	padding: 0px 0px 20px 0px;
+}
+#quickeys-content {
+	width: 60%;
+	position: relative;
+}
+#quickeys-sidebar {
+	width: 35%;
+	position: relative;
+}
+#quickeys-content ul {
+	list-style: disc;
+	margin-left: 40px;
+	font-size: 14px;
+	margin-top: 0px;
+}
+#quickeys-content p.info-box {
+	background: #F8F8F8;
+	border: 1px solid #E8E8E8;
+	padding: 5px 10px;
+	display: inline-block;
+	border-radius: 5px;
+	margin: 5px auto;
+}
+#quickeys-admin .page_title span {
+	font-size: 32px;
+	color: #888;
+}
+
+#quickeys-right {
+	margin-left: 2%;
+}
+.quickeys-record-key-temp,
+.quickeys-record-key {
+	display: block;
+}
+.keymap_head td {
+	border-bottom: 2px solid #AAA;
+}
+.keymap_head h3 {
+	font-size: 18px;
+	margin: 0;	
+}
+.keymap_head h4 {
+	font-size: 14px;
+	text-align: center;
+	margin: 0;
+}
+#quickeys_error_tr {
+	display: none;
+}
+#quickeys_error {
+	display: block !important;
+	padding: 10px;
+	margin: 10px 0px;
+	box-sizing: border-box;
+}
+#quickeys-admin {
+	padding: 20px;
+}
+#quickeys-left,
+#quickeys-right {
+	display: inline-block;
+	width: 48%;
+	position: relative;
+}
+.page_id_row {
+	margin: 0 0 20px 0;
+}
+.page_id_row tfoot td {
+	text-align: center;
+	border-radius: 0 0 10px 10px;
+}
+.page_id_row tfoot td input[type="button"] {
+	padding: 5px 15px;
+	font-size: 16px;
+	border-radius: 5px;
+}
+.quickeys_options_table thead td,
+.page_id_row thead td {
+	padding: 15px;
+	border-radius: 10px 10px 0 0;
+}
+.keymap_head td,
+.quickeys_options_table thead td {
+	background: #e0e0e0 !important;
+}
+.quickeys_options_table thead h2,
+.page_id_row thead h2 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+}
+.quickeys_options_table thead p,
+.page_id_row thead p {
+	font-size: 12px;
+	margin: 5px 0 0 0;
+}
+.page_id_row,
+.quickeys_options_table {
+	width: 100%;
+}
+.page_id_row p,
+.quickeys_options_table p {
+	margin-top: 5px;
+	font-size: 12px;
+}
+.page_id_row label,
+.quickeys_options_table label {
+	font-size: 14px;
+	font-weight: 600;
+}
+.page_id_row select,
+.quickeys_options_table select {
+	margin: 0px 0px 0px 10px;
+}
+.page_id_row .quickeys-record-key-temp,
+.quickeys_options_table .quickeys-record-key {
+	text-align: center;
+	padding: 5px;
+	width: 50px;
+	font-size: 18px;
+	margin: auto;
+	font-family: Georgia;
+	font-style: italic;
+}
+.quickeys-text-field {
+	font-size: 14px;
+	margin: 0 10px;
+	font-style: normal;
+	width: 50px;
+}
+.page_id_row td,
+.quickeys_options_table td {
+	padding: 10px;
+	background: #F0F0F0;
+}
+.quickeys_checkbox {
+	display: block;
+	padding: 5px 10px;
+	background: #f0f0f0;
+	border-radius: 5px;
+	margin: 10px 0 0 0;
+	border: 1px solid #BBB;
+}
+.quickeys_checkbox input {
+	margin-right: 3px;
+}
+.quickeys_core_text {
+	display: block;
+	width: 100%;
+	margin: 5px 0;
+}
+.quickeys_submit_section tbody td {
+	background: transparent;
+	padding: 0;
+	margin: 0;
+}
+.quickeys_submit_section tfoot td {
+	background: #d0d0d0;
+	border-radius: 0 0 10px 10px;
+	text-align: center;
+}
+.quickeys_submit_section input[type="submit"] {
+	padding: 10px 20px;
+	font-family: georgia;
+	font-size: 18px !important;
+	font-weight: 400;
+}
+.quickeys-blue-td{ background: #e0e0ff !important; }
+.quickeys-green-td { background: #e0ffe0 !important; }
+.quickeys-red-td { background: #ffe0e0 !important; }
+.quickeys-gray-td { background: #eee; }
+.quickeys-blue td{ background: #e0e0ff; }
+.quickeys-green td { background: #e0ffe0; }
+.quickeys-red td { background: #ffe0e0; }
+.quickeys-gray td { background: #eee; }
+
+.page_id_row td.left-col,
+.quickeys_options_table td.left-col {
+	width: 80%;
+}
+.page_id_row td.left-col {
+	border-right: 2px solid white;
+}
+#quickeys-admin.clearfix:before,
+#quickeys-admin.clearfix:after,
+#quickeys-admin .clearfix:before,
+#quickeys-admin .clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+#quickeys-admin.clearfix:after,
+#quickeys-admin .clearfix:after { clear: both; }
+#quickeys-admin.clearfix,
+#quickeys-admin .clearfix { zoom: 1; }
+#quickeys-admin .left { float: left; }
+#quickeys-admin .right { float: right; }
+span.quickeys-remove-button {
+	float: right;
+	font-family: sans-serif;
+	padding: 2px 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 5px;
+	border: 1px solid #b75343;
+	border-bottom-color: #99362f;
+	color: white !important;
+	text-shadow: 0 -1px 0 hsla(0,0%,0%,.3);
+	background: #a8473a; /*Fallback*/
+	-webkit-box-shadow: inset 0 1px 0 hsla(0,100%,100%,.3) /*Top*/, 
+						inset 0 0 2px hsla(0,100%,100%,.3) /*Shine*/, 
+						0 1px 2px hsla(0, 0%, 0%, .29) /*Shadow*/;
+	-moz-box-shadow: inset 0 1px 0 hsla(0,100%,100%,.3) /*Top*/, 
+					inset 0 0 2px hsla(0,100%,100%,.3) /*Shine*/, 
+					0 1px 2px hsla(0, 0%, 0%, .29) /*Shadow*/;
+	box-shadow: inset 0 1px 0 hsla(0,100%,100%,.3) /*Top*/, 
+				inset 0 0 2px hsla(0,100%,100%,.3) /*Shine*/, 
+				0 1px 2px hsla(0, 0%, 0%, .29) /*Shadow*/;
+}
+span.quickeys-remove-button:active {
+	border-color: #99362f;
+	-webkit-box-shadow: inset 0 0 7px hsla(0,0%,0%,.3) /*Shine*/,
+						0 1px 0 rgba(100,30,20, 1) /*Shadow*/;
+	-moz-box-shadow: inset 0 0 7px hsla(0,0%,0%,.3) /*Shine*/,
+					0 1px 0 rgba(100,30,20, 1) /*Shadow*/;
+	box-shadow: inset 0 0 7px hsla(0,0%,0%,.3) /*Shine*/,
+				0 1px 0 rgba(100,30,20, 1) /*Shadow*/;
+}
